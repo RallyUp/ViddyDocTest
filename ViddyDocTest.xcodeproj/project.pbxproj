@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00AB57A158816A6004344F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00AB579158816A6004344F5 /* UIKit.framework */; };
+		F00AB57C158816A6004344F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00AB57B158816A6004344F5 /* Foundation.framework */; };
+		F00AB57E158816A6004344F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00AB57D158816A6004344F5 /* CoreGraphics.framework */; };
+		F00AB584158816A6004344F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00AB582158816A6004344F5 /* InfoPlist.strings */; };
+		F00AB586158816A6004344F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F00AB585158816A6004344F5 /* main.m */; };
+		F00AB58A158816A6004344F5 /* VDTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F00AB589158816A6004344F5 /* VDTAppDelegate.m */; };
+		F00AB58D158816A6004344F5 /* VDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F00AB58C158816A6004344F5 /* VDTViewController.m */; };
+		F00AB590158816A6004344F5 /* VDTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00AB58E158816A6004344F5 /* VDTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00AB575158816A6004344F5 /* ViddyDocTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViddyDocTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00AB579158816A6004344F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F00AB57B158816A6004344F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F00AB57D158816A6004344F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F00AB581158816A6004344F5 /* ViddyDocTest-Info.plist */ = {isa = PBXFileReference; path = "ViddyDocTest-Info.plist"; sourceTree = "<group>"; };
+		F00AB583158816A6004344F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F00AB585158816A6004344F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F00AB587158816A6004344F5 /* ViddyDocTest-Prefix.pch */ = {isa = PBXFileReference; path = "ViddyDocTest-Prefix.pch"; sourceTree = "<group>"; };
+		F00AB588158816A6004344F5 /* VDTAppDelegate.h */ = {isa = PBXFileReference; path = VDTAppDelegate.h; sourceTree = "<group>"; };
+		F00AB589158816A6004344F5 /* VDTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDTAppDelegate.m; sourceTree = "<group>"; };
+		F00AB58B158816A6004344F5 /* VDTViewController.h */ = {isa = PBXFileReference; path = VDTViewController.h; sourceTree = "<group>"; };
+		F00AB58C158816A6004344F5 /* VDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDTViewController.m; sourceTree = "<group>"; };
+		F00AB58F158816A6004344F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VDTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00AB572158816A6004344F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00AB57A158816A6004344F5 /* UIKit.framework in Frameworks */,
+				F00AB57C158816A6004344F5 /* Foundation.framework in Frameworks */,
+				F00AB57E158816A6004344F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00AB56A158816A6004344F5 = {
+			isa = PBXGroup;
+			children = (
+				F00AB57F158816A6004344F5 /* ViddyDocTest */,
+				F00AB578158816A6004344F5 /* Frameworks */,
+				F00AB576158816A6004344F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F00AB576158816A6004344F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00AB575158816A6004344F5 /* ViddyDocTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00AB578158816A6004344F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F00AB579158816A6004344F5 /* UIKit.framework */,
+				F00AB57B158816A6004344F5 /* Foundation.framework */,
+				F00AB57D158816A6004344F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F00AB57F158816A6004344F5 /* ViddyDocTest */ = {
+			isa = PBXGroup;
+			children = (
+				F00AB588158816A6004344F5 /* VDTAppDelegate.h */,
+				F00AB589158816A6004344F5 /* VDTAppDelegate.m */,
+				F00AB58B158816A6004344F5 /* VDTViewController.h */,
+				F00AB58C158816A6004344F5 /* VDTViewController.m */,
+				F00AB58E158816A6004344F5 /* VDTViewController.xib */,
+				F00AB580158816A6004344F5 /* Supporting Files */,
+			);
+			path = ViddyDocTest;
+			sourceTree = "<group>";
+		};
+		F00AB580158816A6004344F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00AB581158816A6004344F5 /* ViddyDocTest-Info.plist */,
+				F00AB582158816A6004344F5 /* InfoPlist.strings */,
+				F00AB585158816A6004344F5 /* main.m */,
+				F00AB587158816A6004344F5 /* ViddyDocTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00AB574158816A6004344F5 /* ViddyDocTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00AB593158816A6004344F5 /* Build configuration list for PBXNativeTarget "ViddyDocTest" */;
+			buildPhases = (
+				F00AB571158816A6004344F5 /* Sources */,
+				F00AB572158816A6004344F5 /* Frameworks */,
+				F00AB573158816A6004344F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViddyDocTest;
+			productName = ViddyDocTest;
+			productReference = F00AB575158816A6004344F5 /* ViddyDocTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00AB56C158816A6004344F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VDT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F00AB56F158816A6004344F5 /* Build configuration list for PBXProject "ViddyDocTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F00AB56A158816A6004344F5;
+			productRefGroup = F00AB576158816A6004344F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00AB574158816A6004344F5 /* ViddyDocTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00AB573158816A6004344F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00AB584158816A6004344F5 /* InfoPlist.strings in Resources */,
+				F00AB590158816A6004344F5 /* VDTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00AB571158816A6004344F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00AB586158816A6004344F5 /* main.m in Sources */,
+				F00AB58A158816A6004344F5 /* VDTAppDelegate.m in Sources */,
+				F00AB58D158816A6004344F5 /* VDTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F00AB582158816A6004344F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00AB583158816A6004344F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F00AB58E158816A6004344F5 /* VDTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00AB58F158816A6004344F5 /* en */,
+			);
+			name = VDTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F00AB591158816A6004344F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F00AB592158816A6004344F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00AB594158816A6004344F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViddyDocTest/ViddyDocTest-Prefix.pch";
+				INFOPLIST_FILE = "ViddyDocTest/ViddyDocTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F00AB595158816A6004344F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViddyDocTest/ViddyDocTest-Prefix.pch";
+				INFOPLIST_FILE = "ViddyDocTest/ViddyDocTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00AB56F158816A6004344F5 /* Build configuration list for PBXProject "ViddyDocTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00AB591158816A6004344F5 /* Debug */,
+				F00AB592158816A6004344F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00AB593158816A6004344F5 /* Build configuration list for PBXNativeTarget "ViddyDocTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00AB594158816A6004344F5 /* Debug */,
+				F00AB595158816A6004344F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F00AB56C158816A6004344F5 /* Project object */;
+}

@@ -15,6 +15,7 @@
 		F00AB58A158816A6004344F5 /* VDTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F00AB589158816A6004344F5 /* VDTAppDelegate.m */; };
 		F00AB58D158816A6004344F5 /* VDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F00AB58C158816A6004344F5 /* VDTViewController.m */; };
 		F00AB590158816A6004344F5 /* VDTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00AB58E158816A6004344F5 /* VDTViewController.xib */; };
+		F00AB597158819E9004344F5 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F00AB596158819E9004344F5 /* sample.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		F00AB579158816A6004344F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F00AB57B158816A6004344F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F00AB57D158816A6004344F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F00AB581158816A6004344F5 /* ViddyDocTest-Info.plist */ = {isa = PBXFileReference; path = "ViddyDocTest-Info.plist"; sourceTree = "<group>"; };
+		F00AB581158816A6004344F5 /* ViddyDocTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViddyDocTest-Info.plist"; sourceTree = "<group>"; };
 		F00AB583158816A6004344F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F00AB585158816A6004344F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F00AB587158816A6004344F5 /* ViddyDocTest-Prefix.pch */ = {isa = PBXFileReference; path = "ViddyDocTest-Prefix.pch"; sourceTree = "<group>"; };
-		F00AB588158816A6004344F5 /* VDTAppDelegate.h */ = {isa = PBXFileReference; path = VDTAppDelegate.h; sourceTree = "<group>"; };
+		F00AB587158816A6004344F5 /* ViddyDocTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViddyDocTest-Prefix.pch"; sourceTree = "<group>"; };
+		F00AB588158816A6004344F5 /* VDTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDTAppDelegate.h; sourceTree = "<group>"; };
 		F00AB589158816A6004344F5 /* VDTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDTAppDelegate.m; sourceTree = "<group>"; };
-		F00AB58B158816A6004344F5 /* VDTViewController.h */ = {isa = PBXFileReference; path = VDTViewController.h; sourceTree = "<group>"; };
+		F00AB58B158816A6004344F5 /* VDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDTViewController.h; sourceTree = "<group>"; };
 		F00AB58C158816A6004344F5 /* VDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDTViewController.m; sourceTree = "<group>"; };
 		F00AB58F158816A6004344F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VDTViewController.xib; sourceTree = "<group>"; };
+		F00AB596158819E9004344F5 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		F00AB57F158816A6004344F5 /* ViddyDocTest */ = {
 			isa = PBXGroup;
 			children = (
+				F00AB596158819E9004344F5 /* sample.mp4 */,
 				F00AB588158816A6004344F5 /* VDTAppDelegate.h */,
 				F00AB589158816A6004344F5 /* VDTAppDelegate.m */,
 				F00AB58B158816A6004344F5 /* VDTViewController.h */,
@@ -151,6 +154,7 @@
 			files = (
 				F00AB584158816A6004344F5 /* InfoPlist.strings in Resources */,
 				F00AB590158816A6004344F5 /* VDTViewController.xib in Resources */,
+				F00AB597158819E9004344F5 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
